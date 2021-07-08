@@ -37,7 +37,7 @@ const SWCharacters = () => {
                             people.results.length > 0 ? (
                             <Pagination
                                 activePage={page}
-                                itemsCountPerPage={6}
+                                itemsCountPerPage={9}
                                 totalItemsCount={people.total_records}
                                 onChange={handleChangePage}
                                 itemClass="page-item"

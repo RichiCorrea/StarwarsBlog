@@ -36,7 +36,7 @@ const SWStarships = () => {
                             starships.results.length > 0 ? (
                             <Pagination
                                 activePage={page}
-                                itemsCountPerPage={6}
+                                itemsCountPerPage={9}
                                 totalItemsCount={starships.total_records}
                                 onChange={handleChangePage}
                                 itemClass="page-item"
