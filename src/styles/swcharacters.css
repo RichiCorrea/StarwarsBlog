@@ -13,6 +13,6 @@
     }
 }
 .bg-custom{
-    background:  #373639b4;
-    background: radial-gradient(circle,   #261d36 0%, rgba(52,58,64,1) 26%, rgba(37, 44, 70, 0.568) 100%);
+    background: rgb(166,190,201);
+    background: radial-gradient(circle, rgba(166,190,201,0.3) 0%, rgba(111,132,145,0.5) 42%, rgba(63,75,91,0.8) 65%, rgba(0,0,0,1) 94%);
 }

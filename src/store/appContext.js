@@ -13,9 +13,9 @@ export default function injectContext(PassedComponent){
             })
         }));
         useEffect(() => {
-            state.actions.getPeople('https://www.swapi.tech/api/people?page=1&limit=6',{});
-            state.actions.getPlanets('https://www.swapi.tech/api/planets?page=1&limit=6',{});
-            state.actions.getStarships('https://www.swapi.tech/api/starships?page=1&limit=6',{});
+            state.actions.getPeople('https://www.swapi.tech/api/people?page=1&limit=9',{});
+            state.actions.getPlanets('https://www.swapi.tech/api/planets?page=1&limit=9',{});
+            state.actions.getStarships('https://www.swapi.tech/api/starships?page=1&limit=9',{});
             // eslint-disable-next-line react-hooks/exhaustive-deps
         },[]);
 
