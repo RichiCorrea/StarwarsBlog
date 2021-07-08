@@ -33,7 +33,7 @@ function CharacterDetails() {
                                 <div className="row">
                                     <div className="d-flex justify-content-around py-3">
                                         <Link to="/characters" className="btn-link">
-                                            <button type="button" className="btn btn-outline-secondary" >
+                                            <button type="button" className="btn btn-outline-dark" >
                                                 Back to characters
                                             </button>
                                         </Link>

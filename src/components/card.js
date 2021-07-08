@@ -19,7 +19,7 @@ function Card(props) {
                     </div>
                     <div className="card-footer d-flex justify-content-around">
                         <Link to={`${props.route}/${element.name.split(" ").join("").toLowerCase()}/${element.uid}`}>
-                            <button type="button" className="btn btn-outline-secondary" >
+                            <button type="button" className="btn btn-outline-dark" >
                                 Read more
                             </button>
                         </Link>
