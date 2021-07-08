@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import {MdRemoveCircle} from 'react-icons/md'
+import {MdDelete} from 'react-icons/md'
 export const MyFavorites = () => {
     const { store, actions } = useContext(Context);
     const {favorites} = store;
@@ -15,7 +15,7 @@ export const MyFavorites = () => {
                         store.favorites.map((value, index) => {
                             return <li className="list-group-item d-flex justify-content-between" key={index} >
                                 {value}
-                                <i onClick={()=>actions.removeFavorite(value)}><MdRemoveCircle/></i>
+                                <i onClick={()=>actions.removeFavorite(value)}><MdDelete/></i>
                             </li>
                         }):(
                             <li className="list-group-item">You dont have favorites.</li>
