@@ -21,6 +21,23 @@ const SWStarships = () => {
                     <p className="text-white">Click on read more to display the complete information about the Starships</p>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-md-12 d-flex justify-content-center pt-4 pb-3">
+                    {
+                        !!starships &&
+                            starships.results.length > 0 ? (
+                            <Pagination
+                                activePage={page}
+                                itemsCountPerPage={9}
+                                totalItemsCount={starships.total_records}
+                                onChange={handleChangePage}
+                                itemClass="page-item"
+                                linkClass="page-link"
+                            />
+                        ) : ("")
+                    }
+                </div>
+            </div>
             <div className="row bg-custom rounded-3 py-1">
                 {
                     !!starships ?

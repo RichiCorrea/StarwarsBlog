@@ -22,6 +22,24 @@ const SWPlanets = () => {
                     <p className="text-white">Click on read more to display the complete information about the Planets</p>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-md-12 d-flex justify-content-center pt-4 pb-3">
+                    {
+                        !!planets &&
+                            planets.results.length > 0 ? (
+                            <Pagination
+                                activePage={page}
+                                itemsCountPerPage={9}
+                                totalItemsCount={planets.total_records}
+                                onChange={handleChangePage}
+                                itemClass="page-item"
+                                linkClass="page-link"
+                            />
+                        ) : ("")
+                    }
+                </div>
+            </div>
+
             <div className="row bg-custom rounded-3 py-1">
                 {
                     !!planets ?
