@@ -10,7 +10,7 @@ const SWStarships = () => {
     const [page, setPage] = useState(1);
     const handleChangePage = (pageNumber) => {
         setPage(pageNumber);
-        actions.getStarships(`https://www.swapi.tech/api/starships/?page=${pageNumber}&limit=6`);
+        actions.getStarships(`https://www.swapi.tech/api/starships/?page=${pageNumber}&limit=9`);
     };
     return (
         <div className="row">

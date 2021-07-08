@@ -11,7 +11,7 @@ const SWPlanets = () => {
 
     const handleChangePage = (pageNumber) => {
         setPage(pageNumber);
-        actions.getPlanets(`https://www.swapi.tech/api/planets/?page=${pageNumber}&limit=6`);
+        actions.getPlanets(`https://www.swapi.tech/api/planets/?page=${pageNumber}&limit=9`);
     };
     return (
         <div className="row">

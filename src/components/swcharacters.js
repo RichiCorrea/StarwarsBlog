@@ -11,7 +11,7 @@ const SWCharacters = () => {
 
     const handleChangePage = (pageNumber) => {
         setPage(pageNumber);
-        actions.getPeople(`https://www.swapi.tech/api/people/?page=${pageNumber}&limit=6`);
+        actions.getPeople(`https://www.swapi.tech/api/people/?page=${pageNumber}&limit=9`);
     };
     return (
         <div className="row ">
