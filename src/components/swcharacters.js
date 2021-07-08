@@ -19,7 +19,7 @@ const SWCharacters = () => {
             <h2 className="h2 text-white">Characters</h2>
                 <div
                     className="col-md-12 d-flex align-content-center">
-                    <p className="text-white">List of Characters that we get by consuming swapi.tech/api</p>
+                    <p className="text-white">Click on read more to display the complete information about the Characters</p>
                 </div>
             </div>
             <div className="row bg-custom rounded-3 py-1">

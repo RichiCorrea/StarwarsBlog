@@ -18,7 +18,7 @@ const SWStarships = () => {
                 <h2 className="h2 text-white">Starships</h2>
                 <div
                     className="col-md-12 d-flex align-content-center">
-                    <p className="text-white">List of Starships that we get by consuming swapi.tech/api</p>
+                    <p className="text-white">Click on read more to display the complete information about the Starships</p>
                 </div>
             </div>
             <div className="row bg-custom rounded-3 py-1">
